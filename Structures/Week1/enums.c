@@ -21,7 +21,7 @@ void print_day(enum day d) {
 }
 
 enum day next_day(enum day d) {
-    return(d + 1 % 7);
+    return ( d + 1 %7);
 }
 
 int main() {
